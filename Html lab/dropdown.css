@@ -1,0 +1,71 @@
+/*--------dropdown.html style----------*/
+.dropdown-title{
+    text-align: right;
+    background-color:red;
+    color: black;
+    font-size: 48px;
+    font-weight: bolder;
+    height: 100px;
+  }
+  
+  .list-of-links
+  {
+    position: relative;
+    background-color: gray;
+    margin: 0;
+    padding: 20px;
+   
+    height: 30px;
+    list-style-type: none;
+    
+    
+  }
+  .list-of-links > li{
+    display: inline-block;
+   
+   
+  }
+  .list-of-links > li > a{
+  padding: 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+  }
+  .list-of-links > li > a:hover{
+    background-color: black;
+     color:white;
+    cursor: pointer;
+    
+  }
+  
+  
+  .list-of-links .dd-links-list{
+    position: absolute;
+      display: none;
+      width: 113px;
+      background-color: lightgray;
+      list-style-type: none;
+      white-space: nowrap;
+      padding: 0;
+      z-index: -1;
+      padding: 25px 0 10px 0;
+    
+  }
+  
+   .dd-links-list > li > a{
+    display: inline-block;
+    float: none;
+    color: blue;
+    padding: 10px;
+    text-align: center;
+  
+    font-size: medium;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  
+  .link-with-sublink:hover .dd-link-hover{
+    display: block;
+  }
+  
